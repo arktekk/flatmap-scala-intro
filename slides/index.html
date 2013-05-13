@@ -221,39 +221,6 @@ val range  = 1 to 10
 				</section>
 
 				<section>
-				<pre><code class="language-scala">
-import collection.mutable._
-
-val buffer = new ArrayBuffer[Int]
-
-buffer += 1
-buffer += 2
-
-buffer -= 1
-
-buffer.foreach(element => println(element))
-
-for(element <- buffer)
-  println(element)
-				</code></pre>
-
-				</section>
-
-				<section>
-				<pre><code class="language-scala">
-import collection.mutable._
-
-val map = new HashMap[Int, String]
-map += (1 -> "World")
-map += (2 -> "World")
-
-map -= 1
-map(2) = "Oh yeah"
-				</code></pre>
-
-				</section>
-
-				<section>
 				<h2> immutable </h2>
 				<a href="immutable.png">
 					<img src="immutable.png">
