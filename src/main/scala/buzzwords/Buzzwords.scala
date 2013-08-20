@@ -7,6 +7,5 @@ object Buzzwords extends App{
 
   val lines = content.getLines().toList
 
-
   lines.foreach(println)
 }
